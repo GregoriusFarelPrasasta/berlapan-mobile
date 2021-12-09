@@ -19,8 +19,8 @@ Dalam aplikasi ini, pengguna dapat mendaftarkan diri sebagai relawan donor darah
 APK Berlapan Mobile : https://ristek.link/berlapan
 
 # Cerita Daftar Modul dan Integrasi dengan Web Service
-Penjelasan Modul Landing Page : Khairinka Rania Lizadhi\ 
-  Landing Page adalah halaman pertama yang dilihat oleh user Berlapan. Disini, terdapat slider yang menampilkan preview visual dari fitur-fitur yang ditawarkan Berlapan. Di bawah slider ini, terdapat form untuk melakukan sign up. Di bawah form tersebut, ada juga opsi untuk sign in apabila user sudah pernah sign up sebelumnya. Fields dari kedua form tersebut sama, yaitu email address sebagai input pertama, dan char field sebagai input ke-2. Setelah mengetuk CTA di bawah form, user akan diantarkan ke Home Page.\
+Penjelasan Modul Landing Page : Khairinka Rania Lizadhi\
+Landing Page adalah halaman pertama yang dilihat oleh user Berlapan. Disini, terdapat slider yang menampilkan preview visual dari fitur-fitur yang ditawarkan Berlapan. Di bawah slider ini, terdapat form untuk melakukan sign up. Di bawah form tersebut, ada juga opsi untuk sign in apabila user sudah pernah sign up sebelumnya. Fields dari kedua form tersebut sama, yaitu email address sebagai input pertama, dan char field sebagai input ke-2. Setelah mengetuk CTA di bawah form, user akan diantarkan ke Home Page.\
 
 Penjelasan Modul Profile Page : Defran Fransisco\ 
 
