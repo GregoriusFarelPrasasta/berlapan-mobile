@@ -24,7 +24,8 @@ Berlapan-mobile memiliki 6 modul : Landing Page, Profile Page, Home Page, Daftar
 # Penjelasan Modul Landing Page : Khairinka Rania Lizadhi
 Landing Page adalah halaman pertama yang dilihat oleh user Berlapan. Disini, terdapat slider yang menampilkan preview visual dari fitur-fitur yang ditawarkan Berlapan. Di bawah slider ini, terdapat form untuk melakukan sign up. Di bawah form tersebut, ada juga opsi untuk sign in apabila user sudah pernah sign up sebelumnya. Fields dari kedua form tersebut sama, yaitu email address sebagai input pertama, dan char field sebagai input ke-2. Setelah mengetuk CTA di bawah form, user akan diantarkan ke Home Page.
 
-# Penjelasan Modul Profile Page : Defran Fransisco 
+# Penjelasan Modul Profile Page : Defran Fransisco
+Profile Page Berlapan merupakan tampilan halaman yang menampilkan profile dari user berlapan. Disini user berlapan hanya seorang relawan. Profile yang akan diambil dari data-data yang diberikan user saat melakukan sign up. 
 
 # Penjelasan Modul Home Page : Muhammad Rafi Atha Zhafran
 Home Page Berlapan bertujuan membantu menggambarkan fitur-fitur dari aplikasi pada user tanpa mengharuskan user mengulas aplikasi berlapan terlebih dahulu secara keseluruhan. Page hanya dapat diakses ketika user telah mendaftarkan dirinya. Page ini nantinya juga akan menampilkan profil dari user, seperti username, dan profile picture.  Aplikasi Berlapan juga menyediakan informasi mengenai covid-19 yang mengambil berita dari website lainnya secara aktual dengan tujuan untuk membantu user mencari informasi mengenai covid-19, seperti bahayanya, cara mencegahnya, dan informasi lainnya. Nantinya informasi tersebut akan disediakan secara slider agar lebih mudah mencari informasi.
