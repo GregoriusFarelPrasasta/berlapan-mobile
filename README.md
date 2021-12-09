@@ -19,6 +19,8 @@ Dalam aplikasi ini, pengguna dapat mendaftarkan diri sebagai relawan donor darah
 APK Berlapan Mobile : https://ristek.link/berlapan
 
 # Cerita Daftar Modul dan Integrasi dengan Web Service
+Berlapan-mobile memiliki 6 modul : Landing Page, Profile Page, Home Page, Daftar Relawan Vaksin, Daftar Relawan Donor Darah, dan Daftar Vaksinasi.
+
 # Penjelasan Modul Landing Page : Khairinka Rania Lizadhi
 Landing Page adalah halaman pertama yang dilihat oleh user Berlapan. Disini, terdapat slider yang menampilkan preview visual dari fitur-fitur yang ditawarkan Berlapan. Di bawah slider ini, terdapat form untuk melakukan sign up. Di bawah form tersebut, ada juga opsi untuk sign in apabila user sudah pernah sign up sebelumnya. Fields dari kedua form tersebut sama, yaitu email address sebagai input pertama, dan char field sebagai input ke-2. Setelah mengetuk CTA di bawah form, user akan diantarkan ke Home Page.
 
@@ -38,7 +40,7 @@ Fitur relawan donor darah berisi informasi yang diperlukan para relawan untuk me
 
 Modul Donor Darah pada aplikasi Berlapan juga terdapat di aplikasi web Berlapan. Untuk itu, diperlukan integrasi data dari web aplikasi Berlapan ke aplikasi Berlapan. Data yang akan diintegrasikan dari modul donor darah adalah data formulir pendaftaran relawan donor darah. Pengintegrasian data dilakukan dengan mengirim data dari basis data Django ke framework Flutter.
 
-# Penjelasan Modul Daftar Vaksin : Gregorius Farel Prasasta\
+# Penjelasan Modul Daftar Vaksinasi : Gregorius Farel Prasasta
 Dalam modul ini, user bisa mendaftarkan diri untuk mendapatkan vaksinasi. Pertama, modul ini akan memunculkan halaman yang berisi alasan-alasan perlunya vaksinasi. Halaman ini memiliki tombol “Ayo daftar vaksinasi sekarang” yang jika ditekan, akan memunculkan form “Form Pendaftaran Vaksinasi”.
 
 Dalam “Form Pendaftaran Vaksinasi”, user perlu mengisi field “Nama”, “Tanggal Lahir”, “NIK”, “Alamat Sentra Vaksinasi”, “Tanggal Vaksinasi”, “Jam Vaksinasi”, dan “Vaksinasi Ke-” . Field “Alamat Sentra Vaksinasi”, “Tanggal Vaksinasi”, dan “Jam Vaksinasi” akan berbentuk dropdown yang menampilkan data-data yang sudah dibuat dalam models.py Django. “Vaksinasi Ke-” akan berbentuk dropdown untuk memilih “1” atau “2”. Jika semua field terisi dan user menekan tombol “Daftar”, akan dibuat instance dari model “PesertaVaksinasi” pada database Django. Jika user menekan tombol “Klik Setelah Daftar”, aplikasi akan kembali ke home.
