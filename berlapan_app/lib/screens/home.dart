@@ -8,6 +8,7 @@ import 'package:berlapan_app/constants/style_cons.dart';
 import 'package:berlapan_app/models/statis_model.dart';
 import 'package:berlapan_app/models/news_model.dart';
 import 'package:berlapan_app/Screens/donor.dart';
+import 'package:berlapan_app/Screens/RelawanVaksin/mainRelawanVaksin.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -235,9 +236,11 @@ class _HomeState extends State<Home> {
                         onTap: () {
                           // GILANG
                           setState(() {});
-                          // Navigator.push(context,
-                          //   MaterialPageRoute(builder: (context) =>  [PANGGIL CLASS LU]),
-                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => mainRelawanVaksin()),
+                          );
                         },
                         child: Container(
                           margin: EdgeInsets.only(right: 8),

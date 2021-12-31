@@ -35,6 +35,8 @@ dependencies:
   flutter_svg: ^1.0.0
   google_fonts: ^2.1.0
   flutter_swiper: ^1.1.6
+  image_picker: ^0.8.0
+  xfile: ^1.1.0
   #>>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   http: ^0.13.4
 
@@ -87,6 +89,14 @@ flutter:
     - family: Montserrat
       fonts:
         - asset: fonts/Montserrat-Bold.otf
+
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+          weight: 300
+        - asset: fonts/Rubik-bold.ttf
+          # style: italic
+          weight: 600
     # - family: Trajan Pro
     #   fonts:
     #     - asset: fonts/TrajanPro.ttf
