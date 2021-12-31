@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-import 'package:flutter/material.dart';
-import 'package:berlapan_app/Screens/Welcome/welcome_screen.dart';
-import 'package:berlapan_app/Screens/Profilepage/profile_screen.dart';
-// import 'package:berlapan_app/Screens/daftar_vaksinasi.dart';
+// //<<<<<<< HEAD
+// import 'package:flutter/material.dart';
+// import 'package:berlapan_app/Screens/Welcome/welcome_screen.dart';
+// import 'package:berlapan_app/Screens/Profilepage/profile_screen.dart';
+// // import 'package:berlapan_app/Screens/daftar_vaksinasi.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+// void main() {
+//   runApp(const MyApp());
+// }
 
 // class MyApp extends StatelessWidget {
 //   const MyApp({Key? key}) : super(key: key);
@@ -44,23 +44,23 @@ void main() {
 //   }
 // }
 
-class MyApp extends StatelessWidget {
-  const MyApp({ Key? key }) : super(key: key);
+// class MyApp extends StatelessWidget {
+//   const MyApp({ Key? key }) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Berlapan Mobile',
-      theme: ThemeData(
-        primaryColor: Colors.green[300],
-        scaffoldBackgroundColor: Colors.white,
-      ),
-      home: ProfilePage(),
-    );
-  }
-}
-=======
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       title: 'Berlapan Mobile',
+//       theme: ThemeData(
+//         primaryColor: Colors.green[300],
+//         scaffoldBackgroundColor: Colors.white,
+//       ),
+//       home: ProfilePage(),
+//     );
+//   }
+// }
+// =======
 import 'package:flutter/material.dart';
 import 'package:berlapan_app/screens/home_screen.dart';
 
@@ -78,4 +78,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
+//>>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6

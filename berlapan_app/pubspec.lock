@@ -7,7 +7,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.8.1"
+    version: "2.8.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -21,7 +21,7 @@ packages:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0"
   charcode:
     dependency: transitive
     description:
@@ -43,15 +43,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-<<<<<<< HEAD
-  convert:
-    dependency: transitive
-    description:
-      name: convert
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.1"
-=======
   crypto:
     dependency: transitive
     description:
@@ -59,7 +50,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -100,8 +90,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
-<<<<<<< HEAD
-=======
   flutter_page_indicator:
     dependency: transitive
     description:
@@ -109,16 +97,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.3"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   flutter_svg:
     dependency: "direct main"
     description:
       name: flutter_svg
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "0.17.4"
-=======
     version: "1.0.0"
   flutter_swiper:
     dependency: "direct main"
@@ -127,14 +111,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.6"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-<<<<<<< HEAD
-=======
   google_fonts:
     dependency: "direct main"
     description:
@@ -142,7 +123,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.0"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   http:
     dependency: "direct main"
     description:
@@ -170,7 +150,7 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.10"
+    version: "0.12.11"
   meta:
     dependency: transitive
     description:
@@ -191,20 +171,13 @@ packages:
       name: path_drawing
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "0.4.1+1"
-=======
     version: "1.0.0"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   path_parsing:
     dependency: transitive
     description:
       name: path_parsing
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "0.1.4"
-=======
     version: "1.0.0"
   path_provider:
     dependency: transitive
@@ -255,16 +228,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.4"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   petitparser:
     dependency: transitive
     description:
       name: petitparser
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "3.1.0"
-=======
     version: "4.4.0"
   platform:
     dependency: transitive
@@ -287,7 +256,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   sky_engine:
     dependency: transitive
     description: flutter
@@ -334,9 +302,6 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "0.4.2"
-=======
     version: "0.4.3"
   transformer_page_view:
     dependency: transitive
@@ -345,7 +310,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.6"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   typed_data:
     dependency: transitive
     description:
@@ -359,9 +323,6 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "2.1.0"
-=======
     version: "2.1.1"
   win32:
     dependency: transitive
@@ -377,21 +338,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.0"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
   xml:
     dependency: transitive
     description:
       name: xml
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "3.7.0"
-sdks:
-  dart: ">=2.14.0 <3.0.0"
-  flutter: ">=1.6.7"
-=======
     version: "5.3.1"
 sdks:
-  dart: ">=2.15.0-116.0.dev <3.0.0"
+  dart: ">=2.14.0 <3.0.0"
   flutter: ">=2.5.0"
->>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
