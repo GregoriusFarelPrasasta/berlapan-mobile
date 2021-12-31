@@ -12,14 +12,13 @@ import 'package:berlapan_app/components/rounded_pass_field.dart';
 import 'package:http/http.dart' as http;
 
 class Body extends StatefulWidget {
-  const Body({ Key? key }) : super(key: key);
+  const Body({Key? key}) : super(key: key);
 
   @override
   _BodyState createState() => _BodyState();
 }
 
 class _BodyState extends State<Body> {
-
   final _loginFromKey = GlobalKey<FormState>();
 
   String username = '';
@@ -52,19 +51,18 @@ class _BodyState extends State<Body> {
             RoundedButton(
               text: 'LOGIN',
               press: () async {
-                if(_loginFromKey.currentState!.validate()) {
+                if (_loginFromKey.currentState!.validate()) {
                   final response = await http.post(
-                    Uri.parse("link login"), 
-                    headers: <String, String>{
-                      'Content-Type': 'application/json; charset=UTF-8'
-                    },
-                    body: jsonEncode(<String, String>{
-                      'Username': username,
-                      'Password': password,
-                    })
-                  );
+                      Uri.parse("http://berlapan.herokuapp.com/json"),
+                      headers: <String, String>{
+                        'Content-Type': 'application/json; charset=UTF-8'
+                      },
+                      body: jsonEncode(<String, String>{
+                        'Username': username,
+                        'Password': password,
+                      }));
                   print(response);
-                  print(response.body); 
+                  print(response.body);
                 } else {
                   print('Akun anda tidak valid');
                 }

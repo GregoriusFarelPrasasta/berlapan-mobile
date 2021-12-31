@@ -15,7 +15,8 @@ class DonorDataProvider with ChangeNotifier {
   }
 
   void addData(DonorData donorData) async {
-    final response = await http.post(Uri.parse('http://10.0.2.2:8000/apis/v1/'),
+    final response = await http.post(
+        Uri.parse('http://berlapan.herokuapp.com/apis/v1/'),
         headers: {"Content-Type": "application/json"},
         body: json.encode(donorData));
     if (response.statusCode == 201) {

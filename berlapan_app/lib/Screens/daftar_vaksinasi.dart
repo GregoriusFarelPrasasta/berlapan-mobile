@@ -147,7 +147,8 @@ class FormDaftarState extends State<FormDaftar> {
   String _valLahir = '';
 
   //Untuk dropdown alamat sentra vaksinasi
-  String _sentraUrl = 'http://127.0.0.1:8000/daftar-vaksinasi/alamat_json';
+  String _sentraUrl =
+      'http://berlapan.herokuapp.com/daftar-vaksinasi/alamat_json';
   String _valSentraVaksinasi = 'Somewhere in Kota Serang';
   List<dynamic> _dataSentraVaksinasi = <dynamic>[];
 
@@ -169,7 +170,8 @@ class FormDaftarState extends State<FormDaftar> {
   }
 
   //Untuk dropdown tanggal Vaksinasi
-  String _tanggalUrl = 'http://127.0.0.1:8000/daftar-vaksinasi/tanggal_json';
+  String _tanggalUrl =
+      'http://berlapan.herokuapp.com/daftar-vaksinasi/tanggal_json';
   String _valTanggalTersedia = "2021-11-04";
   List<dynamic> _dataTanggalTersedia = <dynamic>[];
 
@@ -183,7 +185,7 @@ class FormDaftarState extends State<FormDaftar> {
   }
 
   //Untuk dropdown jam vaksinasi
-  String _jamUrl = 'http://127.0.0.1:8000/daftar-vaksinasi/jam_json';
+  String _jamUrl = 'http://berlapan.herokuapp.com/daftar-vaksinasi/jam_json';
   String _valJam = "08.00 - 09.00";
   List<dynamic> _dataJam = <dynamic>[];
 
@@ -419,7 +421,7 @@ class FormDaftarState extends State<FormDaftar> {
                 }
                 final variabel = await http.post(
                     Uri.parse(
-                        'http://127.0.0.1:8000/daftar-vaksinasi/add_to_django'),
+                        'http://berlapan.herokuapp.com/daftar-vaksinasi/add_to_django'),
                     headers: <String, String>{
                       'Content-Type': 'application/json; charset=UTF-8',
                     },

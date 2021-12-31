@@ -178,7 +178,8 @@ class FormRelawanVaksinState extends State<FormRelawanVaksin> {
       final jsonRelawanEncoded = jsonEncode(jsonRelawan);
 
       final variabel = await http.post(
-          Uri.parse('http://10.0.2.2:8000/Daftar_relawan/add_to_django/'),
+          Uri.parse(
+              'http://berlapan.herokuapp.com/Daftar_relawan/add_to_django/'),
           headers: <String, String>{
             'Content-Type': 'application/json; charset=UTF-8',
           },

@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+
 class Post {
   final int userId;
   final int id;
@@ -27,7 +28,6 @@ class Blog {
   final String username;
   final String email;
 
-
   Blog({
     required this.username,
     required this.email,
@@ -41,19 +41,18 @@ class Blog {
   }
 }
 
-class Repo{
-  final _baseurl = "http://127.0.0.1:8000/json";
-  Future getData() async{
-    try{
+class Repo {
+  final _baseurl = "http://berlapan.herokuapp.com/json";
+  Future getData() async {
+    try {
       final response = await http.get(Uri.parse(_baseurl));
 
-      if(response.statusCode == 200){
+      if (response.statusCode == 200) {
         Iterable it = jsonDecode(response.body);
         List<Blog> blog = it.map((e) => Blog.fromJson(e)).toList();
         return blog; // list model blog
       }
-    }
-    catch(error){
+    } catch (error) {
       throw Exception("Error");
     }
   }

@@ -4,8 +4,6 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:async';
 
-
-
 class Home extends StatefulWidget {
   @override
   HomeState createState() => HomeState();
@@ -22,8 +20,8 @@ class HomeState extends State<Home> {
   }
 
   Future<List<relawanVaksin>> getDataRelawanVaksinList() async {
-    final response = await http
-        .get(Uri.parse("http://10.0.2.2:8000/Daftar_relawan/dataRelawanVaksinJson"));
+    final response = await http.get(Uri.parse(
+        "http://berlapan.herokuapp.com/Daftar_relawan/dataRelawanVaksinJson"));
 
     // final response = await http.get("${Env.URL_PREFIX}/Daftar_relawan/dataRelawanVaksinJson");
 
