@@ -7,6 +7,7 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:berlapan_app/constants/style_cons.dart';
 import 'package:berlapan_app/models/statis_model.dart';
 import 'package:berlapan_app/models/news_model.dart';
+import 'package:berlapan_app/Screens/donor.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -180,9 +181,11 @@ class _HomeState extends State<Home> {
                         onTap: () {
                           setState(() {
                             // SALSA
-                            // Navigator.push(context,
-                            //   MaterialPageRoute(builder: (context) =>  [PANGGIL CLASS LU]),
-                            // );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DonorDarah()),
+                            );
                           });
                         },
                         child: Container(
