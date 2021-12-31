@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:berlapan_app/Screens/Welcome/welcome_screen.dart';
 import 'package:berlapan_app/Screens/Profilepage/profile_screen.dart';
@@ -59,3 +60,22 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+=======
+import 'package:flutter/material.dart';
+import 'package:berlapan_app/screens/home_screen.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Berlapan",
+      home: HomeScreen(),
+    );
+  }
+}
+>>>>>>> 8a163ad54fdbf577fee7eaac2a45c049995c8fd6
