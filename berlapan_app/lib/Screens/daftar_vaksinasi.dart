@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
+import '../main.dart';
 
 class DaftarVaksinasi extends StatelessWidget {
   const DaftarVaksinasi({Key? key}) : super(key: key);
